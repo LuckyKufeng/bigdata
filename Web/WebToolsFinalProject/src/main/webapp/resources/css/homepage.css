@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+#nav{
+	width:80%;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+
+#bgvid{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: 100%;
+	height: auto;
+	z-index: -100;
+	background-size: cover;
+}
+
+#intro{
+	width:100%;
+	heigth:200px;
+	margin-top:300px;
+}
+
+#inside{
+	width:60%;
+	heigth:100%;
+	margin-left: 20%;
+	text-align: center;
+}
+
+span{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+}

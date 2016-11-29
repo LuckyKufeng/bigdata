@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+body{
+	background-image:url("/finalproject/resources/img/loginbg.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+
+form{
+	margin-top:70px;
+	margin-left:35%;
+	width:30%;
+	height:400px;
+	padding-top:120px;
+	padding-left:70px;
+}
+
+.form-group{
+	width:80%;
+	margin-top:30px;
+}
+
+button{
+	position:relative;
+	left:30%;
+}
+
+form label.error {
+    color: #FB3A3A;
+}
+
+#errormessage{
+	text-align: center;
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+

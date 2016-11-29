@@ -1,0 +1,201 @@
+@CHARSET "UTF-8";
+
+body{
+	background-image:url("/finalproject/resources/img/bgimg.jpg");
+	background-attachment: fixed;
+}
+#nav{
+	width:80%;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+
+.mainbody{
+	height:1000px;
+	width:80%;
+	margin-left:10%;
+	margin-top:15px;
+}
+
+.sidemenu{
+	position:relative;
+	top:0;
+	left:0;
+	width:30%;
+	height:100%;
+	float:left;
+}
+
+#filedes{
+	margin-top:20px;
+	resize:none;
+}
+
+#worktitle{
+	font-weight: bolder;
+	font-size: 50px;
+	color: white;
+}
+.workarea{
+	position:relative;
+	top:0;
+	left:0;
+	width:70%;
+	height:100%;
+	float:left;
+	border:2px solid red;
+	text-align: center;
+}
+
+.workarea p{
+	color:red;
+}
+
+.droparea{
+	height: 300px;
+	width: 100%;
+	border:1px solid black;
+	background-color: #DCF89F;
+}
+
+#droparea ul{
+	height: 200px;
+	background-color: #DCF89F;
+	display: block;
+}
+
+#droparea ul li{
+	width:100%;
+	height:40px;
+	color: #311DE0;
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 4px;
+	text-align: center;
+}
+
+
+#droparea{
+	/* display:none; */	
+	position: absolute;
+	left: 0;
+	top:10%;
+	visibility:hidden;
+}
+
+.modifydiv{
+		width:80%;
+		margin-left:70px;
+		margin-top:100px;
+		visibility: hidden;
+}
+
+.modifydiv form{
+	width:50%;
+	margin:auto;
+}
+
+
+#classdiv{
+	heigh:300px;
+	width:100%;
+}
+
+#sidemenu div{
+	height: 300px;
+	overflow-y: scroll;
+}
+ul{
+	list-style-type: none;
+}
+
+#modify{
+	position:relative;
+	top:50px;
+	left:35%;	
+}
+
+#myprofile ul{
+	position: relative;
+	top:10px;
+	left:-30px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.btn-submit {
+    position: relative;
+    overflow: hidden;
+}
+.btn-submit input[type=submit] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#upload-file-info{
+	position:relative;
+	top:10px;
+	left:0;
+}
+
+.fileul{
+	position:relative;
+	top:20px;
+	left:0;
+	border-radius:4px;
+}
+
+#modifyform label.error{
+	color: #FB3A3A;
+}	
+
+#fileul{
+	padding-top:20px;
+	display: block;
+	background-color: #D78EED;
+}
+.fileul li{
+	width:100%;
+	height:30px;
+	color: #311DE0;
+	font-weight: bold;
+}
+.fileul li:first-child{
+	color:#F00E3F;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+
+
+
+	

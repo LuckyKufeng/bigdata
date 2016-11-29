@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+body{
+	background-image:url("/finalproject/resources/img/bgimg.jpg");
+	background-attachment: fixed;
+}
+
+#nav{
+	width:80%;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+
+#container{
+	width:80%;
+	height:100%;
+	margin-left: 10%;
+	margin-top: 50px;
+	border-radius:4px;
+	background-color: white;
+}
+
+.user{
+	width:80%;
+	height:100%;
+	margin-left:10%;
+	margin-top:20px;
+	background-color: red;
+}
+
+.user table{
+	height:100%;
+	width:100%;
+}
+
+.name{
+	color: red;	
+	font-size: 30px;
+}

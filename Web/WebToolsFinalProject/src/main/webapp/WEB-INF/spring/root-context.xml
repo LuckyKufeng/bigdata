@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	
+	<bean name="userdao" class="com.my.finalproject.DAO.UserDAO"></bean>	
+	<bean name="filetable" class="com.my.finalproject.DAO.FileDAO"></bean>
+	<bean name="errormessage" class="com.my.finalproject.errorModel.ErrorMessage"></bean>
+	<bean name="classtabledao" class="com.my.finalproject.DAO.ClasstableDAO"></bean>
+	<bean name="studentdao" class="com.my.finalproject.DAO.StudentDAO"></bean>
+	<bean name="teacherdao" class="com.my.finalproject.DAO.TeachersDAO"></bean>
+	<bean name="modifyuserdao" class="com.my.finalproject.DAO.ModifyUserDAO"></bean>
+	<bean name="sharefiledao" class="com.my.finalproject.DAO.ShareFileDAO"></bean>
+	<bean name="communitydatadao" class="com.my.finalproject.DAO.CommunityDataDAO"></bean>
+	
+</beans>
